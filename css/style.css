@@ -1,0 +1,248 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    
+}
+
+body{
+    background-color: rgb(227, 234, 240);
+}
+
+.facehead{
+    
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    place-content:center;
+    place-items: center;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(4, 4, 253);
+    margin-top:30px ;
+    margin-bottom: 30px;
+    overflow: hidden;
+    clear: both;
+    /* background-color: aqua; */
+  
+}
+
+
+.signupcontainer{
+    display: block;
+    margin: auto;
+    width: 430px;
+    height: 550px;
+  background-color: #fff;
+  box-shadow: 0 5px 5px black;
+  border-radius: 10px;
+}
+
+.formhead{
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.create{
+
+    margin-top:15px ;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(155, 151, 151);
+}
+
+.namesinput{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 10px
+}
+
+.fname{
+    
+    padding: 9px;
+    font-size: .9rem;
+    margin-right: 10px;
+    /* font-weight: bold; */
+    border: 1px solid rgb(158, 150, 150);
+    border-radius:5px ;
+}
+
+.lname{
+    padding: 9px;
+    font-size: .9rem;
+    border: 1px solid rgb(158, 150, 150);
+    border-radius:5px ;
+}
+
+.mobileORemail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mobileemail{
+    padding: 9px;
+    font-size: .9rem;
+    border: 1px solid rgb(158, 150, 150);
+    border-radius:5px ;
+    /* place-items: center;s */
+    width: 390px;
+}
+
+.newpassword{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.newpass{
+    padding: 9px;
+    font-size: .9rem;
+    border: 1px solid rgb(158, 150, 150);
+    border-radius:5px ;
+    /* place-items: center;s */
+    width: 390px;
+}
+
+.form-group {
+    margin-bottom: 8px;
+}
+
+.birth {
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+    margin-left: 1.3rem;
+    color: rgb(82, 80, 80);
+    font-weight: 540;
+}
+
+.selectdate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+select {
+   margin-right: 6px;
+    height: 35px;
+    width: 125px;
+    padding: 5px 10px;
+    font-size: .9rem;
+    border: 1px solid rgb(158, 150, 150);
+    border-radius:5px ;
+    margin-bottom: 10px;
+
+}
+
+.genderselect{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.gender{
+    display: flex;
+    font-size: 1rem;
+}
+
+.radio{
+    
+    border: 1px solid rgb(158, 150, 150);
+    margin-right: 10px;
+    padding: 4px;
+    width:120px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.gname{
+    /* border: 1px solid black; */
+   line-height: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.female{
+    
+    margin-top: 5px;
+    float: right;
+
+}
+.male{
+    float: right;
+    margin-top: 5px;
+}
+.custom{
+    float: right;
+    margin-top: 5px;
+}
+
+
+
+.bottomtxt{
+    width: 385px;
+    text-align: justify;
+    margin:auto;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(86, 89, 92);
+    margin-bottom: 25px;
+}
+
+.signupbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnsignup{
+    width: 170px;
+    font-size: 1.3rem;
+    padding: 5px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: rgb(3, 167, 3);
+    border: 1px solid green;
+    border-radius:7px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.already{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.alreadylink{
+    color: rgb(2, 66, 240);
+    font-size: 1.2rem;
+}
+
+
